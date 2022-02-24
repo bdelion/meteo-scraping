@@ -1,0 +1,34 @@
+{
+  "name": "meteo-scraping",
+  "version": "1.0.0",
+  "description": "Tooling autour du scraping de données du site https://www.meteociel.fr/",
+  "main": "src/index.js",
+  "bin": {
+    "@fifiz/meteo-scraping": "bin/meteo-scraping",
+    "meteo-scraping": "bin/meteo-scraping"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "echo 'useless pipeline step'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext js ."
+  },
+  "keywords": [
+    "meteo",
+    "scraping"
+  ],
+  "author": "Bertrand DELION",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
