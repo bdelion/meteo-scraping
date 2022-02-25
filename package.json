@@ -1,11 +1,11 @@
 {
   "name": "meteo-scraping",
-  "version": "1.0.0",
+  "version": "1.0.0-SNAPSHOT",
   "description": "Tooling autour du scraping de données du site https://www.meteociel.fr/",
-  "main": "src/index.js",
+  "main": "src/cli.js",
   "bin": {
-    "@fifiz/meteo-scraping": "bin/meteo-scraping",
-    "meteo-scraping": "bin/meteo-scraping"
+    "@fifiz/meteo-scraping": "src/cli.js",
+    "meteo-scraping": "src/cli.js"
   },
   "publishConfig": {
     "access": "public"
@@ -26,7 +26,9 @@
     "clear": "^0.1.0",
     "figlet": "^1.5.2",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "yargs": "^17.3.1"
   },
   "engines": {
     "node": ">=16.0.0"
