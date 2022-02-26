@@ -11,8 +11,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "echo 'useless pipeline step'",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Useless pipeline step'",
+    "test": "echo 'Warning: no test specified'",
     "lint": "eslint --ext js ."
   },
   "keywords": [
