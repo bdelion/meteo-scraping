@@ -54,8 +54,8 @@ const args = yargs(hideBin(process.argv))
     if (!yargs.before.match(/^\d{1,2}\/\d{1,2}\/(\d{2}|\d{4}) \d{1,2}\:\d{2}$/)) {
       throw new Error("La fin de l'intervalle de recherche n'est pas correcte.");
     }
-    let after = moment(yargs.after, "DD/MM/YY hh:mm");
-    let before = moment(yargs.before, "DD/MM/YY hh:mm");
+    const after = moment(yargs.after, "DD/MM/YY hh:mm");
+    const before = moment(yargs.before, "DD/MM/YY hh:mm");
     // La date de début ne peut être supérieure à la date de fin
     if ((before-after) < 0) {
       throw new Error("La fin de l'intervalle doit être supérieur au début.");
@@ -69,4 +69,4 @@ const args = yargs(hideBin(process.argv))
   .strict()
   .parse();
 
-console.log(chalk.inverse("Intervalle demandé : " + args.after + " --> " + args.before));
+console.log(chalk.inverse(`Intervalle demandé : ${args.after} --> ${args.before}`));
