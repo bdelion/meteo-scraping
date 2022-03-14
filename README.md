@@ -3,7 +3,7 @@
 | Service | Main | Develop |
 |---|---|---|
 | CI GitHub Actions Status | [![Node.js CI](https://github.com/bdelion/meteo-scraping/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/bdelion/meteo-scraping/actions/workflows/node.js.yml) | [![Node.js CI](https://github.com/bdelion/meteo-scraping/actions/workflows/node.js.yml/badge.svg?branch=develop)](https://github.com/bdelion/meteo-scraping/actions/workflows/node.js.yml) |
-| Quality Gate Sonar Status |  |  |
+| Quality Gate Sonar Status | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bdelion_meteo-scraping&branch=main&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bdelion_meteo-scraping&branch=main) | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bdelion_meteo-scraping&branch=develop&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bdelion_meteo-scraping&branch=develop) |
 
 > NOTE : Le format est basé sur [Make a README].
 
