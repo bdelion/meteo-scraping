@@ -28,9 +28,9 @@ Les éléments suivants doivent être installés :
     ```
 3. Afin de vérifier la version installée et de créer le fichier de configuration par défaut, exécutez la commande la commande :
     ```sh
-    $ meteo-scraping -V
+    $ meteo-scraping -v
     ```
-4. La commande ci-dessus crée le fichier de configuration [config.json] dans votre home directory (C:\users\[matricule] sous Windows) nommé `~/.meteo-scraping/`. Pour ajuster la configuration, consulter la page de documentation [Configuration].
+4. La commande ci-dessus crée le fichier de configuration [config.json] dans votre home directory (C:\users\[matricule] sous Windows) nommé `~/.meteo-scraping/` et retourne le numéro de version du script. Pour ajuster la configuration, consulter la page de documentation [Configuration].
 
 ## :house: [Homepage]
 
