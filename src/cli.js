@@ -9,7 +9,7 @@ const yargs = require('yargs');
 const { hideBin } = require('yargs/helpers');
 const moment = require('moment');
 
-const files = require('./lib/files');
+const files = require('./utils/files');
 
 clear();
 
