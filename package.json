@@ -11,8 +11,9 @@
     "access": "public"
   },
   "scripts": {
+    "start": "node ./src/cli.js",
     "build": "echo 'Useless pipeline step'",
-    "test": "echo 'Warning: no test specified'",
+    "test": "jest",
     "lint": "eslint --ext js ."
   },
   "keywords": [
@@ -32,5 +33,8 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
