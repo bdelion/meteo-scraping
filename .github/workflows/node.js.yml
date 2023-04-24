@@ -44,6 +44,8 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
+    - name: Se placer dans le dossier parent
+      run: cd ..
     - name: Afficher la liste des dossiers
       run: ls -d */
     - name: Build ${{ matrix.node-version }}
