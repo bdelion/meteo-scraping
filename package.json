@@ -11,8 +11,10 @@
     "access": "public"
   },
   "scripts": {
+    "start": "node ./src/cli.js",
     "build": "echo 'Useless pipeline step'",
-    "test": "echo 'Warning: no test specified'",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
     "lint": "eslint --ext js ."
   },
   "keywords": [
@@ -26,11 +28,15 @@
     "clear": "^0.1.0",
     "figlet": "^1.5.2",
     "fs": "^0.0.1-security",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "path": "^0.12.7",
     "yargs": "^17.3.1"
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "mock-fs": "^5.2.0"
   }
 }
